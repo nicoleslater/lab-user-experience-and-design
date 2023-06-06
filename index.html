@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%2210 0 100 100%22><text y=%22.90em%22 font-size=%2290%22>🤩</text></svg>">
+    <title>VIP Guest List Application</title>
+    <link rel="stylesheet" href="./styles/index.css" />
+    <script defer src="./scripts/bounce.js"></script>
+    <script defer src="./scripts/vip-change.js"></script>
+    <script defer src="./scripts/create.js"></script>
+    <script defer src="./scripts/error.js"></script>
+    <script defer src="./scripts/form.js"></script>
+    <script defer src="./scripts/run.js"></script>
+  </head>
+  <body>
+    <nav>
+      <h1 class="logo">VIP Guest List</h1>
+    </nav>
+    <main class="wrapper">
+      <aside class="form">
+  
+        <form id="form">
+          <label>
+
+            <input type="text" name="name" id="name" />
+          </label>
+          <label>
+
+            <select name="isVip" id="isVip">
+              <option value=""></option>
+              <option value="yes">Yes</option>
+              <option value="no">No</option>
+            </select>
+          </label>
+          <div id="error"></div>
+          <button type="submit" id="submit">Submit</button>
+          <button type="button" id="clear">Reset</button>
+
+        </form>
+      </aside>
+      <section class="guest-list">
+        <article class="guest">
+          <img
+          src="https://i.pravatar.cc/150?img=49"
+          alt="Person 1"
+        />
+          <div>
+            <h2><span>   </span>Person 1</h2>
+            <div class="status">
+              <button class="in-vip vip">Make VIP</button>
+            <button type="button" class="bounce">Bounce</button>
+          </div>
+        </article>
+        <article class="guest">
+          <img
+          src="https://i.pravatar.cc/150?img=33"
+          alt="Person 2"
+        />
+          <div>
+            <h2><span>⭐️</span>Person 2</h2>
+            <div class="status">
+              <button class="out-vip vip">
+                Remove VIP
+              </button>
+            <button type="button" class="bounce">Bounce</button>
+          </div>
+          </div>
+        </article>
+
+      </section>
+
+
+    </main>
+  </body>
+</html>
