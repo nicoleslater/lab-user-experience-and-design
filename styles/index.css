@@ -76,12 +76,12 @@ aside.form form select {
   border-radius: 0;
   border-style: solid;
   box-sizing: border-box;
-  color: ghostwhite;
+  color: black;
   display: block;
   margin: 5px 0;
   padding: 5px;
   width: 100%;
-  color: aliceblue;
+  color: rgb(4, 7, 9);
 }
 
 aside.form form button,
@@ -170,7 +170,7 @@ aside.form form button[type="submit"]:hover {
   border: 0;
   border-radius: 5px;
   border-style: solid;
-  color: #fbfbff;
+  color: #010102;
   font-weight: bold;
   margin-top: 10px;
   padding: 10px 20px;
@@ -197,11 +197,11 @@ aside.form form button[type="submit"]:hover {
 }
 
 .in-vip {
-  background-color: var(--primary-highlight);
+  background-color: black;
 }
 
 .bounce {
-  color: var(--secondary-highlight);
+  color: var(--blueberry-smoothie);
 }
 .guest-list {
   color: var(--danger);
