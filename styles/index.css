@@ -174,7 +174,7 @@ aside.form form button[type="submit"]:hover {
   font-weight: bold;
   margin-top: 10px;
   padding: 10px 20px;
-  cursor: not-allowed;
+  cursor: pointer;
 }
 
 .guest-list .stock {
@@ -194,6 +194,7 @@ aside.form form button[type="submit"]:hover {
 }
 
 .out-vip {
+  background-color: rgb(88, 10, 88);
 }
 
 .in-vip {
